@@ -1,0 +1,118 @@
+body {
+    background-color: lightblue;
+}
+
+.Titulo {
+    font-size: x-large;
+    color: blue;
+    background-color: white;
+}
+
+.SubTitulo {
+    font-size: large;
+    color: white;
+    background-color: blue;
+}
+
+.Mensaje {
+    font-weight: bold;
+    color: blue;
+}
+
+.FilaCabecera {
+    background-color: lightgray;
+    color: black;
+}
+
+
+.FilaDatos {
+    background-color: white;
+    color: blue;
+}
+    
+
+/*.FilaDatos:nth-child(odd) {
+    background: lightseagreen;
+}*/
+
+/*
+.FilaDatos:hover {
+    background-color: yellow;
+    color: red;
+    cursor: pointer;
+}
+*/
+
+.Boton {
+    width: 100px;
+    height: 30px;
+    border-radius: 15%;
+    background-color: navy;
+    color: white;
+}
+
+    .Boton:hover {
+        background-color: white;
+        color: navy;
+        cursor: pointer;
+    }
+
+.centrado {
+    text-align: center;
+}
+
+.ctrl-select {
+    width: 200px;
+    padding: 4px;
+}
+
+.dv-ctrl {
+    margin: 4px;
+}
+
+.ctrl-button {
+    width: 180px;
+    padding: 5px;
+    /* border-radius: 5%; */
+    background-color: cadetblue;
+    margin-left: 120px;
+}
+
+.anch-columna-id {
+    width: 100px;
+}
+
+.anch-columna-title {
+    width: 350px;
+}
+
+.anch-columna-img {
+    width: 300px;
+}
+
+.anch-columna-album {
+    width: 300px;
+}
+
+.anch-columna-email {
+    width: 150px;
+}
+
+.anch-txt-FindTopico {
+    width: 90%;
+    margin: 4px;
+}
+
+.anch-chk-AllTopico {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 5px;
+}
+
+.anch-chk-SaveTopico {
+    width: 20px;
+    height: 20px;
+    /* position: relative; */
+    /* top: 5px; */
+}

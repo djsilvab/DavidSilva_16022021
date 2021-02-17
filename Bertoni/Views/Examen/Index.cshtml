@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+<link href="~/Content/css/estilo.css" rel="stylesheet" />
+
+<h2>Index</h2>
+
+<div>
+    <div>Obtener albumes</div>
+    <div>
+        Album:<select id="cboAlbum" style="width:450px;"></select>
+        <button id="btnAlbum">Visualizar Album</button>
+    </div>
+    <div>
+        <p>Tabla de FOTOS</p>
+        <div id="dvFotos"></div>
+    </div>
+    <div>
+        <p>TABLA DE COMENTARIOS DE LA FOTO Nro. ID <span style="color:red" id="spnFoto"></span> </p>
+        <div id="dvComentarios"></div>
+    </div>
+
+</div>
+
+<script src="~/Content/js/general.js"></script>
+<script src="~/Content/js/album.js"></script>
